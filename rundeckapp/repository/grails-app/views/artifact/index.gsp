@@ -34,7 +34,7 @@
 <script type="text/javascript">
     window.repocaninstall = ${pluginInstall}
 </script>
-<g:set var="repoEnabled" value="${grailsApplication.config.rundeck?.features?.repository?.enabled}"/>
+<g:set var="repoEnabled" value="${grailsApplication.config.rundeck?.feature?.repository?.enabled}"/>
 <g:if test="${repoEnabled == 'true'}">
 <div class="container-fluid">
     <div id="repository-artifact-content">
